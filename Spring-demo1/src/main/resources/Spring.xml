@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+ <!--   <bean id="hello" class="org.example.HelloWorld">
+<property name="name" value="Coditas" />
+    </bean>-->
+
+
+    <bean id="construct" class="org.example.HelloWorld">
+        <constructor-arg name="name" value="cyb-age"></constructor-arg>
+    </bean>
+</beans>
